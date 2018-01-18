@@ -1,0 +1,24 @@
+https://try.github.io/levels/1/challenges/1
+
+//Initialize
+git init
+git remote add origin http://git.credenceis.com/vijayp/Finrest_Initial_Test.git
+
+git config core.autocrlf true
+git add .
+git commit -m "Initial commit"
+
+//master branch
+git push origin master:master
+
+//other branch
+git push origin master:branch
+
+//to pull the files
+git pull origin "server branch name":"local branch name"
+
+//to check the remote connectivity
+git remote -v
+
+//To remove remote
+git remote remove origin
